@@ -16,8 +16,8 @@ Features:
 - Use predefined particles and create your own ones 
 - Export .json for usage in V-Play 
 - Export .plist for usage in Cocos2d & Cocos2d-x 
-- Collect player history and make statistics of the game data with the V-Play Flurry Plugin - http://v-play.net/doc/vplay-group/#plugin-components/
-- Use clever ads in your game compared to Particle Editor with Chartboost & AdMob Ad Plugins - http://v-play.net/doc/vplay-group/#plugin-components/
+- Collect player history and make statistics of the game data with the [V-Play Flurry Plugin](http://v-play.net/doc/vplay-group/#plugin-components/)
+- Use clever ads in your game compared to Particle Editor with [Chartboost & AdMob Ad Plugins](http://v-play.net/doc/vplay-group/#plugin-components/)
 - Full source code also available in V-Play SDK 
 
 The configured particles can be exported as .json file for your games created with V-Play and they can be exported as .plist file for your Cocos2d games. All particle effects shipped with this application can be used directly in your games or can be used as inspiration for new effects. You can create and test particles directly on your target device and store them locally or send them per mail once they are finished. 
