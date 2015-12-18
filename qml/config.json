@@ -1,0 +1,16 @@
+{
+  "title": "ParticleEditorDev",
+  "identifier": "net.vplay.demos.ParticleEditorDev",
+  "orientation": "landscape",
+  "versioncode": 11,
+  "versionname": "1.1",
+  "stage": "test",
+
+  "plugins": [ "gui", "flurry" ],
+
+  "ios": {
+    "filesharing_enabled": true,
+    "prerendered_icon": true
+   }
+
+}

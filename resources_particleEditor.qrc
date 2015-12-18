@@ -1,0 +1,6 @@
+<RCC>
+    <qresource prefix="/">
+        <file>qml</file>
+        <file>qml/particles</file>
+    </qresource>
+</RCC>
