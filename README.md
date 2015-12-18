@@ -2,14 +2,14 @@
 
 Description
 -----------
-This is the source code of Particle Editor for Cocos2d and V-Play which is available for free in all stores - http://v-play.net/2013/01/v-play-particle-editor/. Particle Editor for Cocos2d and V-Play is an open source particle editor made with V-Play Game Engine available for free on http://v-play.net/. The application runs with V-Play on iOS, Android, BlackBerry, Symbian and on all desktop platforms. 
+This is the source code of Particle Editor for Cocos2d and V-Play which is available for free in all stores - http://v-play.net/2013/01/v-play-particle-editor/. Particle Editor for Cocos2d and V-Play is an open source particle editor made with V-Play Game Engine available for free on http://v-play.net/. The application runs with V-Play on iOS, Android and on all desktop platforms. 
 
-![ScreenShot](http://v-play.net/games/particleeditor/pe1.jpeg)
+![ScreenShot](http://v-play.net/doc/images/particleeditor-fireball.png)
 
 Particle Editor for Cocos2d and V-Play is the ultimate particle creation tool for your games which allows you to visually configure stunning particle effects in real-time for a wide variety of games and game engines including V-Play, Cocos2d and Cocos2d-x. Easily change the properties of any existing particle with the particle editor to generate new effects and save them to a file or send them per email for further usage in other applications. 
 
 Features:
-- Usable cross-platform on iOS, Android, BlackBerry, Symbian and on all desktop platforms
+- Usable cross-platform on iOS, Android and on all desktop platforms
 - Create and test particles in real-time on any target device 
 - Test the exact performance how the particle will impact your V-Play or Cocos2d game directly on target devices 
 - Test multiple particles of a scene at once and optimize them instantly 
@@ -76,8 +76,7 @@ or visit http://v-play.net/.
 
 Screenshots  
 -----------
-![ScreenShot](http://v-play.net/games/particleeditor/pe1.jpeg)
-![ScreenShot](http://v-play.net/games/particleeditor/pe2.jpeg)
-![ScreenShot](http://v-play.net/games/particleeditor/pe3.jpeg)
-![ScreenShot](http://v-play.net/games/particleeditor/pe4.jpeg)
-![ScreenShot](http://v-play.net/games/particleeditor/pe5.jpeg)
+![ScreenShot](http://v-play.net/doc/images/particleeditor-fireball.png)
+![ScreenShot](http://v-play.net/doc/images/particeeditor-appeariancemenu.png)
+![ScreenShot](http://v-play.net/doc/images/particleeditor-configurationmenu2.png)
+![ScreenShot](http://v-play.net/doc/images/particleeditor-radiationmode.png)
