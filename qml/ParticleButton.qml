@@ -1,6 +1,6 @@
-import VPlay 2.0
+import Felgo 3.0
 import QtQuick 2.2
-ButtonVPlay {
+GameButton {
   id: button
   anchors.horizontalCenter: parent.horizontalCenter
 

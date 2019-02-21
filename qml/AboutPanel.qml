@@ -1,4 +1,4 @@
-import VPlay 2.0
+import Felgo 3.0
 import QtQuick 2.2
 import "particles"
 Item {
@@ -130,7 +130,7 @@ Item {
 
       MultiResolutionImage {
         id: imageHeader
-        source: "../assets/img/vplay-logo.png"
+        source: "../assets/img/felgo.png"
         MouseArea {
           anchors.fill: parent
           onClicked: {

@@ -1,4 +1,4 @@
-import VPlay 2.0
+import Felgo 3.0
 import QtQuick 2.2
 import "ArrayStorage.js" as ArrayStorage
 import "ArrayStorage.js" as ArrayStorage2

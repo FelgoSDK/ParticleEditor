@@ -1,4 +1,4 @@
-import VPlay 2.0
+import Felgo 3.0
 import QtQuick 2.2
 
 Column {
@@ -17,14 +17,14 @@ Column {
     color: "white"
     text: "Creation Count "+column.cnt
   }
-  SliderVPlay {
+  GameSlider {
     id: sliderCount
     width: column.width
     maximumValue: 30
     value: 1
     stepSize: 1
   }
-  ButtonVPlay {
+  GameButton {
     width: column.width
     height: column.buttonHeight
     text: "Add "+scene.itemEditor.currentEditableType
@@ -32,7 +32,7 @@ Column {
       createParticle()
     }
   }
-  ButtonVPlay {
+  GameButton {
     id: filename
     width: column.width
     height: column.buttonHeight
@@ -43,7 +43,7 @@ Column {
       nativeUtils.displayTextInput("Save as", "Enter Particle Name", scene.itemEditor.currentEditableType)
     }
   }
-  ButtonVPlay {
+  GameButton {
     width: column.width
     height: column.buttonHeight
     text: "Respawn Particles"
@@ -56,7 +56,7 @@ Column {
       }
     }
   }
-  ButtonVPlay {
+  GameButton {
     width: column.width
     height: column.buttonHeight
     text: "Remove All"
@@ -69,7 +69,7 @@ Column {
       }
     }
   }
-  ButtonVPlay {
+  GameButton {
     width: column.width
     height: column.buttonHeight
     text: "Remove First"
@@ -82,7 +82,7 @@ Column {
       }
     }
   }
-  ButtonVPlay {
+  GameButton {
     width: column.width
     height: column.buttonHeight
     text: "Remove Last"
@@ -96,7 +96,7 @@ Column {
     }
   }
 
-  ButtonVPlay {
+  GameButton {
     width: column.width
     height: column.buttonHeight
     text: "Save to .plist"
@@ -112,7 +112,7 @@ Column {
     }
   }
 
-  ButtonVPlay {
+  GameButton {
     id: mail
     width: column.width
     height: column.buttonHeight
@@ -123,7 +123,7 @@ Column {
     }
   }
 
-  ButtonVPlay {
+  GameButton {
     id: mailPList
     width: column.width
     height: column.buttonHeight

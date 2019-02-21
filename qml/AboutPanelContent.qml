@@ -1,4 +1,4 @@
-import VPlay 2.0
+import Felgo 3.0
 import QtQuick 2.2
 
 Item {
@@ -76,13 +76,13 @@ Item {
         sourceHover: "../assets/img/title_hover.png"
         sourceClick: "../assets/img/title_click.png"
         onClicked: {
-          // Log calls to v-play.net
-          flurry.logEvent("V-Play.net - about v-play")
-          nativeUtils.openUrl("http://www.v-play.net")
+          // Log calls to felgo.com
+          flurry.logEvent("felgo.com - about felgo")
+          nativeUtils.openUrl("https://www.felgo.com")
         }
         Text {
           anchors.centerIn: parent
-          text: "About V-Play"
+          text: "About Felgo"
           color: "#b9ff0a"
         }
       }
@@ -103,7 +103,7 @@ Item {
         onClicked: {
           // Log calls to qt benefits page
           flurry.logEvent("qt-benefits")
-          nativeUtils.openUrl("http://v-play.net/benefits/#qtdeveloper")
+          nativeUtils.openUrl("https://felgo.com/benefits/#qtdeveloper")
         }
       }
       AboutButton {
@@ -115,7 +115,7 @@ Item {
         onClicked: {
           // Log calls to cocos benefits page
           flurry.logEvent("cocos-benefits")
-          nativeUtils.openUrl("http://v-play.net/benefits/#cocosdeveloper")
+          nativeUtils.openUrl("https://felgo.com/benefits/#cocosdeveloper")
         }
       }
 
@@ -126,13 +126,13 @@ Item {
         sourceHover: "../assets/img/link_hover.png"
         sourceClick: "../assets/img/link_click.png"
         onClicked: {
-          // Log calls to v-play.net
-          flurry.logEvent("V-Play.net")
-          nativeUtils.openUrl("http://www.v-play.net")
+          // Log calls to Felgo.net
+          flurry.logEvent("felgo.com")
+          nativeUtils.openUrl("https://www.felgo.com")
         }
         Text {
           anchors.centerIn: parent
-          text: "www.v-play.net"
+          text: "www.felgo.com"
           color: "#b9ff0a"
         }
       }
@@ -153,13 +153,13 @@ Item {
         sourceHover: "../assets/img/title_hover.png"
         sourceClick: "../assets/img/title_click.png"
         onClicked: {
-          // Log calls to v-play.net
-          flurry.logEvent("V-Play.net - v-play game engine features")
-          nativeUtils.openUrl("http://www.v-play.net")
+          // Log calls to felgo.com
+          flurry.logEvent("felgo.com - felgo games features")
+          nativeUtils.openUrl("https://www.felgo.com")
         }
         Text {
           anchors.centerIn: parent
-          text: "V-Play Game Engine - Features"
+          text: "Felgo - Features"
           color: "#b9ff0a"
         }
       }
@@ -173,9 +173,9 @@ Item {
           sourceHover: "../assets/img/interactive_item_hover.png"
           sourceClick: "../assets/img/interactive_item_click.png"
           onClicked: {
-            // Log calls to v-play.net
-            flurry.logEvent("V-Play.net - v-play game engine features major platforms")
-            nativeUtils.openUrl("http://v-play.net/features/")
+            // Log calls to Felgo.net
+            flurry.logEvent("felgo.com - felgo features major platforms")
+            nativeUtils.openUrl("https://felgo.com/features/")
           }
           Text {
             anchors.verticalCenter: parent.verticalCenter
@@ -191,9 +191,9 @@ Item {
           sourceHover: "../assets/img/interactive_item_hover.png"
           sourceClick: "../assets/img/interactive_item_click.png"
           onClicked: {
-            // Log calls to v-play.net
-            flurry.logEvent("V-Play.net - v-play game engine features single codebase")
-            nativeUtils.openUrl("http://v-play.net/features/")
+            // Log calls to Felgo.net
+            flurry.logEvent("felgo.com - felgo features single codebase")
+            nativeUtils.openUrl("https://felgo.com/features/")
           }
           Text {
             anchors.verticalCenter: parent.verticalCenter
@@ -209,9 +209,9 @@ Item {
           sourceHover: "../assets/img/interactive_item_hover.png"
           sourceClick: "../assets/img/interactive_item_click.png"
           onClicked: {
-            // Log calls to v-play.net
-            flurry.logEvent("V-Play.net - v-play game engine features levels")
-            nativeUtils.openUrl("http://v-play.net/2013/05/v-play-level-editor/")
+            // Log calls to Felgo.net
+            flurry.logEvent("felgo.com - felgo features levels")
+            nativeUtils.openUrl("https://felgo.com/2013/05/felgo-level-editor/")
           }
           Text {
             anchors.verticalCenter: parent.verticalCenter
@@ -227,9 +227,9 @@ Item {
           sourceHover: "../assets/img/interactive_item_hover.png"
           sourceClick: "../assets/img/interactive_item_click.png"
           onClicked: {
-            // Log calls to v-play.net
-            flurry.logEvent("V-Play.net - v-play game engine features introduction")
-            nativeUtils.openUrl("http://v-play.net/doc/index.html#qml-introduction")
+            // Log calls to Felgo.net
+            flurry.logEvent("felgo.com - felgo features introduction")
+            nativeUtils.openUrl("https://felgo.com/doc/index.html#qml-introduction")
           }
           Text {
             anchors.verticalCenter: parent.verticalCenter
@@ -259,9 +259,9 @@ Item {
         sourceHover: "../assets/img/title_hover.png"
         sourceClick: "../assets/img/title_click.png"
         onClicked: {
-          // Log calls to v-play.net
-          flurry.logEvent("V-Play.net")
-          flurry.logEvent("V-Play.net - particle editor features")
+          // Log calls to Felgo.net
+          flurry.logEvent("felgo.com")
+          flurry.logEvent("felgo.com - particle editor features")
         }
         Text {
           anchors.centerIn: parent
@@ -282,7 +282,7 @@ Item {
             anchors.verticalCenter: parent.verticalCenter
             anchors.left: parent.left
             anchors.leftMargin: 45
-            text: "Export JSON for usage in V-Play"
+            text: "Export JSON for usage in Felgo"
             color: "white"
             font.pixelSize: 12
           }
@@ -344,13 +344,13 @@ Item {
         sourceHover: "../assets/img/title_hover.png"
         sourceClick: "../assets/img/title_click.png"
         onClicked: {
-          // Log calls to v-play games
-          flurry.logEvent("V-Play Games")
-          nativeUtils.openUrl("http://www.v-play.net/showcases")
+          // Log calls to felgo games
+          flurry.logEvent("Felgo Games")
+          nativeUtils.openUrl("https://www.felgo.com/showcases")
         }
         Text {
           anchors.centerIn: parent
-          text: "V-Play Games"
+          text: "Felgo Games"
           color: "#b9ff0a"
         }
       }
@@ -366,9 +366,9 @@ Item {
           sourceHover: "../assets/img/squaby_hover.png"
           sourceClick: "../assets/img/squaby_click.png"
           onClicked: {
-            // Log calls to v-play games
-            flurry.logEvent("V-Play Games Squaby")
-            nativeUtils.openUrl("http://games.v-play.net/squaby/")
+            // Log calls to Felgo games
+            flurry.logEvent("Felgo Games Squaby")
+            nativeUtils.openUrl("http://games.felgo.com/squaby/")
           }
         }
         AboutButton {
@@ -376,9 +376,9 @@ Item {
           sourceHover: "../assets/img/cob_hover.png"
           sourceClick: "../assets/img/cob_click.png"
           onClicked: {
-            // Log calls to v-play games
-            flurry.logEvent("V-Play Games Chickenoutbreak")
-            nativeUtils.openUrl("http://games.v-play.net/chickenoutbreak/")
+            // Log calls to Felgo games
+            flurry.logEvent("Felgo Games Chickenoutbreak")
+            nativeUtils.openUrl("http://games.felgo.com/chickenoutbreak/")
           }
         }
         AboutButton {
@@ -386,9 +386,9 @@ Item {
           sourceHover: "../assets/img/link_hover.png"
           sourceClick: "../assets/img/link_click.png"
           onClicked: {
-            // Log calls to v-play games
-            flurry.logEvent("V-Play Games")
-            nativeUtils.openUrl("http://www.v-play.net/showcases")
+            // Log calls to felgo games
+            flurry.logEvent("Felgo Games")
+            nativeUtils.openUrl("https://www.felgo.com/showcases")
           }
           Text {
             anchors.centerIn: parent
